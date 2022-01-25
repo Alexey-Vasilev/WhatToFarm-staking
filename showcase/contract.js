@@ -14,17 +14,17 @@ const comments = {
   viewRequestsTimestamp: 'Show deposits timestamps array of the position',
   stakes: 'Stakes descriptions',
   positions: 'Info about each user that stakes tokens',
-  productsUser: 'Mars products users',
+  productsUser: 'products users',
   owner: 'Returns the address of the current owner',
-  mars: 'The MARS TOKEN',
+  token: 'The TOKEN',
   rewardPool: 'Reward wallet address',
   createNewStake: 'Create a new stake.',
   updateStake: 'Update existing stake.',
   setRewardPool: 'Change reward pool.',
-  enterStaking: 'Stake MARS tokens',
+  enterStaking: 'Stake tokens',
   harvestReward: 'Take all available reward',
   requestLeaving: 'Request leaving from stake, requires Leaving Lock Up Period to wait',
-  leaveStaking: 'Withdraw MARS tokens from staking',
+  leaveStaking: 'Withdraw tokens from staking',
   initialize: 'For ERC1967 proxy we need to replace constructor with initialize function',
   setProductsUser: 'Mark users of products as available for special stakes',
   createNewStake: 'Create a new stake',
@@ -75,13 +75,13 @@ const readForms = {
   ],
   productsUser: ['address _user'],
   owner: [],
-  mars: [],
+  token: [],
   rewardPool: [],
 };
 
 const adminForms = {
   initialize: [
-    'BEP20 _mars',
+    'BEP20 _token',
     'address _rewardPool',
   ],
 
